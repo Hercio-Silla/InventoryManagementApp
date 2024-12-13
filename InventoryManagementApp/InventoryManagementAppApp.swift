@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct InventoryManagementAppApp: App {
+struct InventoryManagementApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ItemListView(viewModel: InventoryViewModel())
         }
     }
 }
